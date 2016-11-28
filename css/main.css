@@ -40,6 +40,7 @@ p {
 h2 {
   font-family: "Denk One", sans-serif;
   padding-bottom: 1.5rem;
+  font-size: 1.5rem;
 }
 
 figcaption {
@@ -67,5 +68,20 @@ figcaption {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 10px;
     max-width: 20em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 }
